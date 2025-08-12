@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     # Local apps
     'api',
     'accounts',
+    'corsheaders',
+    # Local apps
+    'api',
 ]
 
 MIDDLEWARE = [
@@ -164,3 +167,4 @@ SIMPLE_JWT = {
     'BLACKLIST_AFTER_ROTATION': True,
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
+
